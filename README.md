@@ -1,6 +1,18 @@
 # Obsidian Mermaid Tree
 
+With this plugin, you can preview all outgoing links for a section recursively. This can be used to show a family relation tree where the parents are linked notes within a section.
+
+Then name of the section to render is managed as a setting.
+
 ## Usage
+
+Under obsidian settings for Mermaid Tree, set the section to recursive render outgoing links from.
+
+![](./images/settings.png)
+
+In this example, the section `Parents` are set to render as tree.
+
+![](./images/example.png)
 
 ## How to use
 
