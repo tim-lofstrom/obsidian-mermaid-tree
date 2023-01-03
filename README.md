@@ -10,6 +10,10 @@ Under obsidian settings for Mermaid Tree, set the section to recursive render ou
 
 ![](./images/settings.png)
 
+When on an active note, use command palette to open the view
+
+![](./images/palette.png)
+
 In this example, the section `Parents` are set to render as tree.
 
 ![](./images/example.png)
