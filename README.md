@@ -14,13 +14,19 @@ In this example, the section `Parents` are set to render as tree.
 
 ![](./images/example.png)
 
-## How to use
+## Contributing
+
+This plugin is a generated from the [obsidian-sample-plugin](https://github.com/obsidianmd/obsidian-sample-plugin)
+
+Ideas and contribution regarding the Mermaid Tree plugin are welcome!
+
+### How to develop
 
 - Clone this repo.
 - `npm i` or `yarn` to install dependencies
 - `npm run dev` to start compilation in watch mode.
 
-## Releasing new releases
+### Releasing new releases
 
 - Update your `manifest.json` with your new version number, such as `1.0.1`, and the minimum Obsidian version required for your latest release.
 - Update your `versions.json` file with `"new-plugin-version": "minimum-obsidian-version"` so older versions of Obsidian can download an older version of your plugin that's compatible.
@@ -31,6 +37,6 @@ In this example, the section `Parents` are set to render as tree.
 > You can simplify the version bump process by running `npm version patch`, `npm version minor` or `npm version major` after updating `minAppVersion` manually in `manifest.json`.
 > The command will bump version in `manifest.json` and `package.json`, and add the entry for the new version to `versions.json`
 
-## Manually installing the plugin
+### Manually installing the plugin
 
 - Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/obsidian-mermaid-tree/`.
