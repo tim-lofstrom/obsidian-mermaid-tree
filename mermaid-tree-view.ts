@@ -20,7 +20,7 @@ export function hashCode(str: string): number {
   return hash;
 }
 
-export const VIEW_TYPE_EXAMPLE = "mermaid-tree-view";
+export const VIEW_TYPE_MERMAID_TREE = "mermaid-tree-view";
 
 interface TextNode extends UNIST.Node {
   type: "text";
@@ -50,11 +50,11 @@ export class MermaidTreeView extends ItemView {
   }
 
   getViewType() {
-    return VIEW_TYPE_EXAMPLE;
+    return VIEW_TYPE_MERMAID_TREE;
   }
 
   getDisplayText() {
-    return "Example view";
+    return "Mermaid Tree View";
   }
 
   parseOutgoingListLinks(parsedDocumentContent: SyntaxTree, search: String) {

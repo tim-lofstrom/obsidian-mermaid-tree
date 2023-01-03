@@ -1,10 +1,10 @@
-import ExamplePlugin from "./main";
+import MermaidTree from "./main";
 import { App, PluginSettingTab, Setting } from "obsidian";
 
 export class MermaidTreeSettingTab extends PluginSettingTab {
-  plugin: ExamplePlugin;
+  plugin: MermaidTree;
 
-  constructor(app: App, plugin: ExamplePlugin) {
+  constructor(app: App, plugin: MermaidTree) {
     super(app, plugin);
     this.plugin = plugin;
   }
